@@ -166,7 +166,7 @@ footer {
         font-size: 5vh;
     }
     #C {
-        letter-spacing: 6px;
+        letter-spacing: 2px;
         margin-bottom: 10vh;
     }
     footer {
@@ -195,5 +195,28 @@ footer {
     }
     .inf {
         margin-right: 3vh;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .menu {
+        margin-top: 6vh;
+    }
+    #A {
+        font-size: 4vh;
+    }
+    #B {
+        font-size: 4vh;
+    }
+    #C {
+        font-size: 2vh;
+        margin-bottom: 8vh;
+        letter-spacing: 1px;
+    }
+    footer {
+        height: 9vh;
+    }
+    .redes {
+        width: 30vh;
     }
 }
