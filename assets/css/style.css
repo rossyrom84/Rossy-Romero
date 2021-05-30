@@ -144,3 +144,56 @@ footer {
 }
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1024px) {
+    .menu {
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .logo {
+        height: 15vh;
+        width: 20vh;
+    }
+    .exp {
+        font-size: 4vh;
+    }
+    .descripcion {
+        height: 90vh;
+    }
+    #A {
+        font-size: 5vh;
+    }
+    #B {
+        font-size: 5vh;
+    }
+    #C {
+        letter-spacing: 6px;
+        margin-bottom: 10vh;
+    }
+    footer {
+        height: 10vh;
+    }
+    .logo-follow {
+        height: 9vh;
+        width: 18vh;
+    }
+    .github {
+        height: 5vh;
+        width: 5vh;
+    }
+    .linkedin {
+        height: 3vh;
+        width: 3vh;
+    }
+    .factoria {
+        font-size: 2vh;
+    }
+    .contacto {
+        font-size: 2vh;
+    }
+    .redes {
+        width: 40vh;
+    }
+    .inf {
+        margin-right: 3vh;
+    }
+}
