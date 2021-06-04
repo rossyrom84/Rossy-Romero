@@ -224,6 +224,7 @@ footer {
 /*ABOUT*/
 body {
     background: black;
+
 }
 header {
     height: 10vh;
@@ -234,7 +235,7 @@ header {
 }
 .girl {
     width: 100%;
-    height: 65vh;
+    height: 70vh;
     margin-top: 5vh;
     border-bottom: 2px aliceblue solid;
     border-top: 2px aliceblue solid;
@@ -245,8 +246,11 @@ header {
     background-color: blueviolet;
     color: aliceblue;
     text-align: center;
-    margin: 10vh 0vh 0vh 10vh;
+    margin: 6vh 0vh 0vh 10vh;
     border-radius: 10px;
+}
+.box-title:hover {
+    background: #3db3e2;
 }
 .perfil {
     width: 90%;
@@ -274,12 +278,69 @@ h1 {
 .boot {
     display: flex;
     flex-direction: row;
-    margin-top: 8vh;
     width: 90%;
     height: 40vh;
-    margin: 10vh 0vh 10vh 12vh;
+    margin: 10vh 0vh 10vh 10vh;
 }
 .meme {
     margin-right: 4vh;
+    border-radius: 10px;
+}
+.inf2 {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px blueviolet;
+    font-size: 22px;
+    line-height: 6vh;
+    padding: 5vh;
+    text-align: justify-all;
 }
 
+@media screen and (max-width: 1024px) {
+
+    .girl {
+    margin-top: 1vh;
+    width: 80vh;
+    }
+    .exp {
+    margin-right: 3vh;
+    }
+    .box-title {
+    height: 3vh;
+    margin: 3vh 0vh 0vh 7vh;
+    }
+    .perfil {
+    margin: 5vh 0vh 0vh 7vh;
+    }
+    .per-pr {
+    height: 25vh;
+    width: 30vh;
+    }
+    .boot {
+    height: 30vh;
+    margin: 5vh 0vh 5vh 7vh;
+    }
+    .inf2 {
+    font-size: 18px;
+    line-height: 3vh;
+    padding: 3vh;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        width: 72vh;
+    }
+    .girl {
+        height: 40vh;
+        width: 80vh;
+    }
+    .box-title {
+        height: 2vh;
+        margin: 5vh 0vh 0vh 7vh;
+    }
+    .boot {
+        height: 25vh;
+        margin: 5vh 0vh 7vh 7vh;
+    }
+}
